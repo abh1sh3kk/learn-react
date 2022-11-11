@@ -6,7 +6,12 @@ function App() {
   let theData = {
     "name": "Nobody", 
     "address": "Nowhere",
-    "phoneNumber": "+977-987654321"
+    "tel-number": 987654321,
+    "country-code": "+977",
+    "isStudent": true,
+    "favorites": ["Chair", "Table", "Aeroplane", "Milky Way Galaxy"],
+    "birthYear": 1980,
+
   };
   const [formData, setFormData] = React.useState(theData);
 
